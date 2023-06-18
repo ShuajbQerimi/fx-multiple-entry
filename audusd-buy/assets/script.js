@@ -64,7 +64,7 @@ $('input').keyup(function(){ // run anytime the value changes
 
 
 
-    var audusdstoplosstotal= (audusdentry - audusdstoploss) * audusdlotsize1;
+    var audusdstoplosstotal= (audusdentry - audusdstoploss) * audusdlotsize;
     audusdstoplosstotal = audusdstoplosstotal/100000;
 
     var audusdtakeprofittotal= (audusdtakeprofit - audusdentry) * audusdlotsize;

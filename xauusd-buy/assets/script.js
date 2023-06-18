@@ -64,7 +64,7 @@ $('input').keyup(function(){ // run anytime the value changes
 
 
 
-    var xauusdstoplosstotal= (xauusdentry - xauusdstoploss) * xauusdlotsize1;
+    var xauusdstoplosstotal= (xauusdentry - xauusdstoploss) * xauusdlotsize;
     xauusdstoplosstotal = xauusdstoplosstotal/100;
 
     var xauusdtakeprofittotal= (xauusdtakeprofit - xauusdentry) * xauusdlotsize;

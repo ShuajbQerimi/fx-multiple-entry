@@ -64,7 +64,7 @@ $('input').keyup(function(){ // run anytime the value changes
 
 
 
-    var nas100stoplosstotal= (nas100entry - nas100stoploss) * nas100lotsize1;
+    var nas100stoplosstotal= (nas100entry - nas100stoploss) * nas100lotsize;
     nas100stoplosstotal = nas100stoplosstotal/100;
 
     var nas100takeprofittotal= (nas100takeprofit - nas100entry) * nas100lotsize;

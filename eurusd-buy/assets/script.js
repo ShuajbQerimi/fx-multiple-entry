@@ -64,7 +64,7 @@ $('input').keyup(function(){ // run anytime the value changes
 
 
 
-    var eurusdstoplosstotal= (eurusdentry - eurusdstoploss) * eurusdlotsize1;
+    var eurusdstoplosstotal= (eurusdentry - eurusdstoploss) * eurusdlotsize;
     eurusdstoplosstotal = eurusdstoplosstotal/100000;
 
     var eurusdtakeprofittotal= (eurusdtakeprofit - eurusdentry) * eurusdlotsize;

@@ -64,7 +64,7 @@ $('input').keyup(function(){ // run anytime the value changes
 
 
 
-    var gbpusdstoplosstotal= (gbpusdentry - gbpusdstoploss) * gbpusdlotsize1;
+    var gbpusdstoplosstotal= (gbpusdentry - gbpusdstoploss) * gbpusdlotsize;
     gbpusdstoplosstotal = gbpusdstoplosstotal/100000;
 
     var gbpusdtakeprofittotal= (gbpusdtakeprofit - gbpusdentry) * gbpusdlotsize;

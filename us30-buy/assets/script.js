@@ -64,7 +64,7 @@ $('input').keyup(function(){ // run anytime the value changes
 
 
 
-    var us30stoplosstotal= (us30entry - us30stoploss) * us30lotsize1;
+    var us30stoplosstotal= (us30entry - us30stoploss) * us30lotsize;
     us30stoplosstotal = us30stoplosstotal/100;
 
     var us30takeprofittotal= (us30takeprofit - us30entry) * us30lotsize;

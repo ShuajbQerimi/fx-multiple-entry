@@ -64,7 +64,7 @@ $('input').keyup(function(){ // run anytime the value changes
 
 
 
-    var gbpjpystoplosstotal= (gbpjpyentry - gbpjpystoploss) * gbpjpylotsize1;
+    var gbpjpystoplosstotal= (gbpjpyentry - gbpjpystoploss) * gbpjpylotsize;
     gbpjpystoplosstotal = (gbpjpystoplosstotal/100)*7.0503500;
 
     var gbpjpytakeprofittotal= (gbpjpytakeprofit - gbpjpyentry) * gbpjpylotsize;
