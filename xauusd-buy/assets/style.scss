@@ -1,0 +1,102 @@
+body {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        background: rgb(255, 0, 0);
+        justify-content: center;
+        text-align: center;
+
+        .up {
+            .title {
+                font-size: 35px;
+                font-weight: 700;
+            }
+
+            .balance {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                p {
+                    font-weight: 700;
+                    margin-right: 10px;
+                    margin-top: 10px;
+                }
+
+                input {
+                    margin-left: 10px;
+                    border-radius: 15px;
+                    width: 150px;
+                    height: 30px;
+                }
+            }
+
+            .calculation {
+                display: flex;
+                flex-direction: row;
+                margin-top: 20px;
+
+                .calc {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 100%;
+                    margin: 0 auto;
+
+                    p {
+                        font-weight: 700;
+                        margin: 0;
+                        margin-right: 10px;
+                        margin-top: 5px;
+                    }
+
+                    input {
+                        margin-left: 10px;
+                        border-radius: 15px;
+                        width: 150px;
+                        height: 30px;
+                    }
+                }
+            }
+
+        }
+
+        .down {
+            display: flex;
+            flex-direction: column;
+
+            .texts {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                p {
+                    margin-top: 50px;
+                    font-weight: 700;
+                }
+            }
+
+            .level {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                input {
+                    justify-content: space-around;
+                    margin-left: 10px;
+                    border-radius: 15px;
+                    width: 150px;
+                    height: 30px;
+                }
+                .numoftrade{
+                    text-align: center;
+                    width: 150px;
+                    height: 30px;
+                    font-weight: 700;
+                    margin-top: 10px;
+                }
+            }
+
+        }
+    }
+
+}

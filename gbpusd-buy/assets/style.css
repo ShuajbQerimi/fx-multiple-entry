@@ -1,0 +1,83 @@
+body .container {
+  width: 90%;
+  margin: 0 auto;
+  background: rgb(255, 0, 0);
+  justify-content: center;
+  text-align: center;
+}
+body .container .up .title {
+  font-size: 35px;
+  font-weight: 700;
+}
+body .container .up .balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+body .container .up .balance p {
+  font-weight: 700;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+body .container .up .balance input {
+  margin-left: 10px;
+  border-radius: 15px;
+  width: 150px;
+  height: 30px;
+}
+body .container .up .calculation {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+body .container .up .calculation .calc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+body .container .up .calculation .calc p {
+  font-weight: 700;
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+body .container .up .calculation .calc input {
+  margin-left: 10px;
+  border-radius: 15px;
+  width: 150px;
+  height: 30px;
+}
+body .container .down {
+  display: flex;
+  flex-direction: column;
+}
+body .container .down .texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body .container .down .texts p {
+  margin-top: 50px;
+  font-weight: 700;
+}
+body .container .down .level {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body .container .down .level input {
+  justify-content: space-around;
+  margin-left: 10px;
+  border-radius: 15px;
+  width: 150px;
+  height: 30px;
+}
+body .container .down .level .numoftrade {
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  font-weight: 700;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */

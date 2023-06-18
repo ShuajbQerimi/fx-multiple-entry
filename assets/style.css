@@ -1,0 +1,49 @@
+body .container {
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+body .container .title p {
+  font-size: 40px;
+  font-weight: 700;
+}
+body .container .elems {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+body .container .elems .elem {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+body .container .elems .elem .left p {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0px;
+  margin-right: 50px;
+  background: rgba(0, 149, 176, 0.431372549);
+  padding: 15px 50px;
+  border-radius: 25px;
+  margin-top: -15px;
+  width: 100px;
+}
+body .container .elems .elem .right a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px;
+  background: rgba(0, 0, 0, 0.431372549);
+  padding: 15px 50px;
+  border-radius: 25px;
+}
+body .container .elems .elem .right .green {
+  color: green;
+}
+body .container .elems .elem .right .red {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
